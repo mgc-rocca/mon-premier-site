@@ -64,6 +64,9 @@ footer {
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    border: 1px solid #222;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 @media (max-width: 700px) {
@@ -92,4 +95,14 @@ footer {
     background-color: #222;
     color: white;
     cursor: pointer;
+    border: 1px solid #222;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+    transition: background-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.button:hover,
+#message-button:hover {
+    background-color: #444;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.18);
+    transform: translateY(-2px);
 }
